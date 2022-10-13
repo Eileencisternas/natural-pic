@@ -13,7 +13,6 @@ const Favoritos = () => {
       <div className="p-3 galeria grid-columns-4">
       { 
         fotosFavoritos.map((foto) => {
-          console.log(foto)
             return (
                 <div key={foto.id} className='foto'>
                   <img src={foto.src.original}
